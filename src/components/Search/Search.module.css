@@ -1,0 +1,26 @@
+.container {
+	background-color: #F3F3F5;
+	border-radius: var(--input-border-radius);
+	padding: 0 5px;
+	height: 52px;
+	width: 510px;
+	display: grid;
+	grid-template-columns: min-content 1fr;
+}
+
+.iconWrapper {
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon {
+	display: block;
+}
+
+.input {
+	height: 100%;
+	background: transparent;
+	border: none;
+}
